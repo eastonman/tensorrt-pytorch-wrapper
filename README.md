@@ -15,7 +15,7 @@ Copy `engine.py` into your project directory
 ### Example
 
 ```
-from engine import Engin
+from engine import Engine
 class Rcnn(nn.Module):
     def __init__(self, backbone, det_classes, seg_classes, **kwargs):
         super(Rcnn_Deeplab, self).__init__()
